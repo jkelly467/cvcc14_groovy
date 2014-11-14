@@ -1,0 +1,11 @@
+person("The Dude")  {
+  wants("A new rug")
+  drinks("White Russian")
+  action {
+    println "$name makes a $drink"
+
+    if (want == 'A new rug') {
+      println "That rug really tied the room together"
+    }
+  }
+}
